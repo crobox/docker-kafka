@@ -1,4 +1,4 @@
-FROM wurstmeister/kafka:0.10.1.0-2
+FROM wurstmeister/kafka:0.10.2.1
 
 RUN mkdir /prometheus
 ADD "http://repo1.maven.org/maven2/io/prometheus/jmx/jmx_prometheus_javaagent/0.7/jmx_prometheus_javaagent-0.7.jar" /prometheus
