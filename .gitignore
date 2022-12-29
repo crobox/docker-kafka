@@ -1,0 +1,12 @@
+*.iml
+*.log
+.idea
+.bsp
+.env
+target
+test-output
+*.class
+json/*
+native/
+node_modules
+*.sh
